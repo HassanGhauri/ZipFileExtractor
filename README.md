@@ -1,6 +1,6 @@
 # ZipFileExtractor
 
-##Welcome to Zip_File_Extractor Project Called File Extractor.
+## Welcome to Zip_File_Extractor Project Called File Extractor.
 
 This project is built with React Js and works in the following way: 
 
