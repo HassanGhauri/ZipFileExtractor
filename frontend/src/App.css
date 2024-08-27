@@ -1,0 +1,90 @@
+body{
+    background: rgb(25, 25, 26);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 8vh;
+    background: rgb(100, 17, 207);
+    box-shadow: 0px 0px 8px rgb(100, 17, 207);
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 0px 0px 5px whitesmoke;
+}
+.navbar p{
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px whitesmoke;
+    font-size: 25px;
+}
+.file-portion{
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgb(100, 17, 207);
+    margin: auto;
+    width: 50vh;
+    height: 30vh;
+    background: rgb(100, 17, 207);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.file-portion input{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.file-portion p {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.file-portion label{
+    cursor: pointer;
+}
+.file-portion span{
+    color: whitesmoke;
+    font-size: 100px;
+
+}
+.file-portion button{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(100, 17, 207);
+    outline: none;
+    height: 30px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+
+}
+
+.file-img p{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.file-img span{
+    margin-left: 20px;
+}
+.file-portion button:hover{
+    box-shadow: 0px 0px 5px whitesmoke;
+}
